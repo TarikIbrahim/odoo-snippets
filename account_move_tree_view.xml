@@ -1,0 +1,11 @@
+<record id="view_account_move_tree" model="ir.ui.view">
+    <field name="name">account.move.tree</field>
+    <field name="model">account.move</field>
+    <field name="arch" type="xml">
+        <tree>
+            <!-- Your other fields -->
+            <field name="company_karat_weight"/>
+         
+        </tree>
+    </field>
+</record>
